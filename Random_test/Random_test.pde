@@ -6,7 +6,7 @@ void setup(){
 void draw(){
   stroke(random(0, 255));
   strokeWeight(8);
-  fill(mouseX, mouseY, 242);
+  fill(mouseX, mouseY, 248);
   ellipse(random(0, 800), random(0, 600), 64, 64);
   
   if(mousePressed){
